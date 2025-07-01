@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title> micheal ice cream    </title>
+</head>
+<LINK rel="stylesheet" href="style.css" />
+<script>
+    function buy(item, price) {
+      alert(`You've selected ${item} for ₦${price.toLocaleString()}. Proceeding to checkout...`);
+    }
+  </script>
+<body>
+<h1>Michael's Ice Cream</h1>
+
+<p>
+  Welcome to <strong>Michael's Ice Cream World!</strong> We offer many delicious flavors like chocolate, strawberry milkshake, and coconut milk. 
+  Small cups are ₦200, big ones are ₦1,000 — cool and creamy treats just for you!
+</p>
+
+<div class="icecream-pack">
+  <h2>Small Size</h2>
+  <p><strong>Price:</strong> ₦200</p>
+  <p>Enjoy small cups of chocolate, strawberry milkshake, or coconut milk flavor. We even host fun ice cream eating competitions!</p>
+  <button onclick="buy('Small Size', 200)">PAY</button>
+</div>
+
+<div class="icecream-pack">
+  <h2>Family Pack</h2>
+  <p><strong>Price:</strong> ₦9,000</p>
+  <p>This big box comes with 3 coconut milk flavors — perfect for your family to share and enjoy together!</p>
+  <button onclick="buy('Family Pack', 9000)">PAY</button>
+</div>
+
+<div class="icecream-pack">
+  <h2>Jumbo Size</h2>
+  <p><strong>Price:</strong> ₦12,000</p>
+  <p>Our medium-size pack filled with your favorite flavors. It’s big, fun, and ready for a party!</p>
+  <button onclick="buy('Jumbo Size', 12000)">PAY</button>
+</div>
+
+<div class="icecream-pack">
+  <h2>Michael's Gigantic Ice Cream</h2>
+  <p><strong>Price:</strong> ₦26,600</p>
+  <p>Super-sized ice cream for the bold and brave! Comes with surprise toppings and lots of smiles.</p>
+  <button onclick="buy('Gigantic Ice Cream', 26600)">PAY</button>
+</div>
+
+<div class="watermark">
+  This website was created by Michael Nwanze primary 4 THIS IS A FAKE website 
+   . © 2025
+</div>
+</body>
+</html>

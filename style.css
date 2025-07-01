@@ -1,0 +1,123 @@
+body {
+    background: linear-gradient(to right, #fefae0, #ffffff);
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 30px;
+    color: rgb(49, 49, 182);
+  }
+  
+  /* Main Heading */
+  h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #5c3d1d;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #f8e1c8;
+  }
+  
+  /* Welcome Paragraph */
+  p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 10px auto 20px;
+    background-color: #fff6ed;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Ice Cream Pack Styling */
+  .icecream-pack {
+    background: #fffefb;
+    border: 2px solid #f4a460;
+    padding: 20px;
+    margin: 24px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    max-width: 750px;
+  }
+  
+  .icecream-pack:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icecream-pack h2 {
+    color: #1f680d5b;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .icecream-pack p {
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    margin-bottom: 12px;
+  }
+  
+  .icecream-pack p strong {
+    color: B#1834d6;
+  }
+  
+  /* Buttons */
+  .icecream-pack button {
+    padding: 10px 20px;
+    background-color: #cd853f;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .icecream-pack button:hover {
+    background-color: #a0522d;
+  }
+  
+  /* Watermark */
+  .watermark {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    z-index: 9999;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    body {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    p, .icecream-pack {
+      font-size: 1rem;
+      padding: 15px;
+    }
+  
+    .icecream-pack h2 {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+  
+    .icecream-pack button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .watermark {
+      font-size: 12px;
+    }
+  }
+  
